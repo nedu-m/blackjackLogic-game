@@ -1,8 +1,9 @@
-let player = {
-  name: "Junior",
-  chips: 45
-}
+// let player = {
+//   name: "Junior",
+//   chips: 45
+// }
 
+//Initializations
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -11,8 +12,7 @@ let messageEl = document.querySelector("#message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardEl = document.querySelector("#card-el")
 //let playerEl = document.querySelector("#player-el")
-
-playerEl.textContent = player.name + ": $" + player.chips
+//playerEl.textContent = player.name + ": $" + player.chips
 
 //Functions
 function getRandomCard() {
